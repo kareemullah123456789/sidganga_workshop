@@ -1,0 +1,40 @@
+# ============================================
+# Workshop: LLMs, RAG, Agentic AI, MCP
+# Requirements File - All Sessions (1-8)
+# Tested with Python 3.11.9 on Windows
+# pip check: No broken requirements found
+# ============================================
+
+# --- LangChain Ecosystem ---
+langchain==0.3.27
+langchain-core==0.3.83
+langchain-ollama==0.3.10
+langchain-community==0.3.31
+langchain-text-splitters==0.3.11
+langsmith==0.7.11
+
+# --- Vector Store ---
+faiss-cpu==1.13.2
+
+# --- LLM & Embeddings ---
+transformers==4.57.6
+sentence-transformers==3.4.1
+tokenizers==0.22.2
+
+# --- MCP (Model Context Protocol) ---
+mcp==1.26.0
+httpx==0.28.1
+
+# --- Web UI ---
+streamlit==1.55.0
+
+# --- Utilities ---
+requests==2.32.5
+numpy==1.26.4
+scikit-learn==1.8.0
+pypdf==4.3.1
+pydantic==2.12.5
+
+# --- Jupyter ---
+ipykernel==7.2.0
+ipywidgets==8.1.8
